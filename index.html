@@ -5,10 +5,150 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>Template</title>
+  <title>Rates</title>
 </head>
 <body>
+  
+  <div class="container">
+    
+    <form class="roats" action="https://echo.htmlacademy.ru/courses" method="post">
+      
+      <div class="roats__inner">
+        
+        <div class="roats__left left">
+          
+          <h2 class="left__title">
+            My     Wallets
+          </h2>
+          
+          <div class="left__info info">
+            <input class="left__input" type="radio" name="card type" value="VISA" id="visa">
+            <label class="left__label" for="visa">
+              <span>
+                <img class="info__img" src="./images/visa.svg" alt="card visa">
+                <span class="info__span">**** **** **** 2562</span>
+                <span class="info__span">Vaild thru 12|17</span>
+              </span>                    
+            </label>
+          </div>
 
+          <div class="left__info info">
+            <input class="left__input" type="radio" name="card type" value="MASTERCARD" id="mastercard">
+            <label class="left__label" for="mastercard">
+              <span>
+                <img class="info__img" src="./images/mastercard.svg" alt="master card">
+                <span class="info__span">**** **** **** 2101</span>
+                <span class="info__span">Vaild thru 07|17</span>
+              </span>                    
+            </label>
+          </div>
+
+          <div class="left__info info">
+            <input class="left__input" type="radio" name="card type" value="MAESTRO" id="maestro">
+            <label class="left__label" for="maestro">
+              <span>
+                <img class="info__img" src="./images/maestro.svg" alt="maestro">
+                <span class="info__span">**** **** **** 8335</span>
+                <span class="info__span">Vaild thru 09|17</span>
+              </span>                    
+            </label>
+          </div>
+          
+        </div>
+
+        <div class="roats__right right">
+
+          <div class="right__wrapper">
+
+            <h3 class="right__title">
+              Current Balance
+           </h3>
+
+           <span class="right__money">
+             $729. <sup>00</sup>
+          </span>
+
+           
+            
+          </div>
+
+          <div class="right__infos">
+            <label class="right__label money" for="apple">
+              <input class="right__input" type="checkbox"  name="selected prodact" value="Apple iPhone 7" id="apple">
+              <span class="button"></span>
+                 <span class="money__span">
+                   Apple iPhone 7,128Gb
+                    <span class="money__number">Electronic #32343424 - 12 July 2015</span>
+                  </span>
+                   <span class="money__span--green"> 
+                    $650. <sup>00</sup>
+                   </span>
+            </label>                              
+           
+            
+          </div>
+
+          <div class="right__infos">
+            <label class="right__label money" for="found">
+              <input class="right__input" type="checkbox"  name="selected prodact" value="Funds Added" id="found">
+              <span class="button"></span>
+                 <span class="money__span">
+                   Funds Added
+                    <span class="money__number">Payment #5435- 11 July 2015</span>
+                  </span>
+                   <span class="money__span--green"> 
+                    $900. <sup>00</sup>
+                   </span>
+            </label>                              
+           
+            
+          </div>
+
+          <div class="right__infos">
+            <label class="right__label money" for="energy">
+              <input class="right__input" type="checkbox"  name="selected prodact" value="Energy Bill" id="energy">
+              <span class="button"></span>
+                 <span class="money__span">
+                   Energy Bill
+                    <span class="money__number">Other #745137423-11 July 2015</span>
+                  </span>
+                   <span class="money__span--green"> 
+                    $84. <sup>00</sup>
+                   </span>
+            </label>                              
+           
+            
+          </div>
+
+          <div class="right__infos">
+            <label class="right__label money" for="cenema">
+              <input class="right__input" type="checkbox"  name="selected prodact" value="Cenema Tickent" id="cenema">
+              <span class="button"></span>
+                 <span class="money__span">
+                   The Eye Cenema Ticket
+                    <span class="money__number">Entertainment #323343424-10 July 2015</span>
+                  </span>
+                   <span class="money__span--green"> 
+                    $40. <sup>00</sup>
+                   </span>
+            </label>                              
+           
+            
+          </div>
+
+          <div class="right__submit">
+            <button class="roast__button" type="reset">Cansel The Order</button>
+            <button class="roast__button" type="submit">Place An Order</button>
+          </div>
+
+        </div>
+        
+      </div>
+        
+    </form>
+    
+  </div>
+  
   
 </body>
 </html>
